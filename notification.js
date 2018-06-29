@@ -25,6 +25,7 @@ function serviceWorkerCall() {
  
  function initialiseState() {
     console.log("initialiseState...");
+	console.log("bisu....");
     if (!("showNotification" in ServiceWorkerRegistration.prototype)) {
        console.log("Notifications aren't supported.");
        return;
